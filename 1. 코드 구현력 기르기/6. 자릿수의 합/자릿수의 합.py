@@ -2,7 +2,7 @@ import sys
 sys.stdin=open("input.txt", "rt")
 
 n = int(input())
-arr = list(map(str, input().split()))
+arr = list(input().split())
 
 def digit_sum(x):
     sum = 0
