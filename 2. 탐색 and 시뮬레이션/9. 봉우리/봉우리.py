@@ -23,8 +23,9 @@ sys.stdin=open("/Users/hyejung/Desktop/HYEJUNG/Practice/Algorithm/python/practic
 
 # 문제에 나온 풀이
 
-dx=[-1, 0, 1, 0]
-dy=[0, 1, 0, -1]
+# [⬆️, ➡️, ⬇️, ⬅️]
+dx=[-1, 0, 1, 0] # 행
+dy=[0, 1, 0, -1] # 열
 n=int(input())
 a=[list(map(int, input().split())) for _ in range(n)]
 a.insert(0, [0]*n)
