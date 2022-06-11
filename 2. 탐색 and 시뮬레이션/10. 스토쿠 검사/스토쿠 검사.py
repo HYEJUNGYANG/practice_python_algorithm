@@ -1,6 +1,6 @@
 from operator import countOf
 import sys
-sys.stdin=open("/Users/hyejung/Desktop/HYEJUNG/Practice/Algorithm/python/practice_python_algorithm/2. 탐색 and 시뮬레이션/10. 스토쿠 검사/input.txt", "r")
+sys.stdin=open("input.txt", "r")
 
 def check(a):
     for i in range(9):
