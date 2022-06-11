@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("input.txt", "rt")
+# sys.stdin=open("input.txt", "rt")
 
 # n = int(input())
 # arr = []
@@ -33,6 +33,7 @@ sys.stdin=open("input.txt", "rt")
 
 n = int(input())
 a = [list(map(int, input().split())) for _ in range(n)]
+
 largest = 0
 for i in range(n):
     sum1 = sum2 = 0  # sum1 => 행의 합, sum2 => 열의 합
