@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("/Users/hyejung/Desktop/HYEJUNG/Practice/Algorithm/python/practice_python_algorithm/3. 이분탐색(결정알고리즘) & 그리디 알고리즘/2. 랜선자르기(결정알고리즘)/input.txt", "r")
+sys.stdin=open("input.txt", "r")
 
 def Count(len):
     cnt = 0
